@@ -1,10 +1,10 @@
 import React from "react";
-import Router from "./Router";
+import Cart from "./Pages/cart";
 
 function App() {
   return (
     <div>
-      <Router />
+      <Cart />
     </div>
   );
 }
