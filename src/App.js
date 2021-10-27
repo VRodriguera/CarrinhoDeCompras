@@ -1,11 +1,15 @@
 import React from "react";
-import Cart from "./Pages/cart";
+import Router from "./Router";
+import Provider from "./Context/provider";
+import './style.css';
 
 function App() {
   return (
-    <div>
-      <Cart />
-    </div>
+  <div>
+    <Provider>
+      <Router />
+    </Provider>
+  </div>
   );
 }
 

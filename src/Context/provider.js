@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import context from './context';
+import Context from './context';
 import fetchAllProducts from '../API/api';
 
 function Provider({ children }) {
@@ -28,13 +28,13 @@ function Provider({ children }) {
     setFreeShipping,
     setIsLoading,
     setRightToFreeShipping
-};
+  };
 
-return (
-  <context.Provider value={ contextValue }>
-    {children}
-  </context.Provider>
-);
+  return (
+    <Context.Provider value={contextValue}>
+      {children}
+    </Context.Provider>
+  );
 };
 
 export default Provider;
