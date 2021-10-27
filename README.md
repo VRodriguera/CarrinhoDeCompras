@@ -1,6 +1,8 @@
 # Projeto Carrinho de Compras
 
-https://checkout.colombo.com.br/gif_carrinho.gif
+<div align=center>
+ <img width=200 src='https://checkout.colombo.com.br/gif_carrinho.gif'/>
+</div>
 
 ## Deploy do Projeto
 
