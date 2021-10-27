@@ -17,8 +17,8 @@ function CartFreeShipping(props) {
             <div className="cardProductText">
               <h3>{item.name}</h3>
               <p>{`Quantidade: ${item.quantity}`}</p>
-              <p>{`Preço por un: R$ ${(item.price / 100).toFixed(2)}`}</p>
-              <p>{`Preço com desconto por un: R$ ${(item.price / 100 + item.priceTags[0].value / 100).toFixed(2)}`}</p>
+              <p>{`Preço: R$ ${(item.price / 100).toFixed(2)}`}</p>
+              <p>{`Preço com desconto: R$ ${(item.price / 100 + item.priceTags[0].value / 100).toFixed(2)}`}</p>
             </div>
             <div className="divider"></div>
           </div>
