@@ -48,6 +48,6 @@
 
 ## Layouts de referência
 
-[abaixo-10-reais.pdf](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/d32fad8d-ce46-4889-8c02-fee5d53c5eb2/abaixo-10-reais.pdf)
+[abaixo-10-reais.pdf](https://drive.google.com/file/d/1SX1Vy-A68dOBWdIviF-LjzW70eqzzEvJ/view?usp=sharing)
 
-[acima-10-reais.pdf](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/d6bdd2c6-d068-4645-bf47-558c0153ea93/acima-10-reais.pdf)
+[acima-10-reais.pdf](https://drive.google.com/file/d/1z-k829FiXlGh8T8fAzY4exoMHvZnpfvW/view?usp=sharing)
