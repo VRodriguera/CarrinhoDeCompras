@@ -1,70 +1,51 @@
-# Getting Started with Create React App
+# Projeto Carrinho de Compras
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+https://checkout.colombo.com.br/gif_carrinho.gif
 
-## Available Scripts
+## Deploy do Projeto
 
-In the project directory, you can run:
+[APP](https://vrodriguera-cart.herokuapp.com/)
 
-### `npm start`
+## Tecnologias usadas:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+- React
+- Hooks
+- Context API
+- Firebase
+- Heroku
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## Autor
 
-### `npm test`
+> Vinicius Rodrigues
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+<div>  
+<a href="https://www.instagram.com/vini_vr_/" target="_blank"><img src="https://img.shields.io/badge/-Instagram-%23E4405F?style=for-the-badge&logo=instagram&logoColor=white" target="_blank"></a>  
+<a href="https://www.linkedin.com/in/oviniciusrodrigues/" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a>  
+</div> 
 
-### `npm run build`
+## Objetivos
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- Desenvolver um “Carrinho de compras” usando uma API.
+- Listar os produtos, exibir o total da compra e exibir uma mensagem informando se o pedido possui frete grátis.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Requisitos mínimos
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- Listar os produtos provenientes da API.
+- Os produtos devem ter imagem, nome e preço.
+- Exibir ao fim da lista o valor total de todos os produtos.
+- Exibir o texto de frete grátis dependendo do valor do carrinho.
+- O texto de frete grátis deverá aparecer apenas se o valor for acima de **R$ 10,00.**
+- Seguir o layout.
+- Usar Flex-Box CSS.
 
-### `npm run eject`
+## Arquivos utilizados
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+#### API tilizada
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+[API](https://carts-64003-default-rtdb.firebaseio.com/carts.json)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+## Layouts de referência
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+[abaixo-10-reais.pdf](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/d32fad8d-ce46-4889-8c02-fee5d53c5eb2/abaixo-10-reais.pdf)
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+[acima-10-reais.pdf](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/d6bdd2c6-d068-4645-bf47-558c0153ea93/acima-10-reais.pdf)
