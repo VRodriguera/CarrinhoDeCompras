@@ -6,7 +6,7 @@
 
 ## Deploy do Projeto
 
-[APP](https://vrodriguera-cart.herokuapp.com/)
+[Carrinho de compras](https://vrodriguera-cart.herokuapp.com/)
 
 ## Tecnologias usadas:
 
